@@ -10,11 +10,30 @@ body {
     min-height: 100vh;
     display: grid;
     grid-template-columns: minmax(100px, auto) minmax(400px, 600px) minmax(100px, auto);
-    grid-template-rows: 80px minmax(800px, auto) 80px;
+    grid-template-rows: 80px auto auto;
 
     grid-template-areas: "side-left head side-right"
                          "side-left content side-right"
                          "side-left foot side-right";
+}
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+    .grid-wrapper {
+        min-height: 100vh;
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: 80px auto auto;
+
+        grid-template-areas: "head"
+                             "content"
+                             "foot";
+    }
+
+    .content {
+        margin: 0 4px 0 4px;
+    }
 }
 
 .head {

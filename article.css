@@ -1,0 +1,26 @@
+article {
+
+}
+
+.article-title {
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.article-text {
+    margin-top: 8px;
+}
+
+.article-subtitle {
+    display: flex;
+    flex-direction: row;
+    font-style: italic;
+}
+
+.article-date::after {
+    content: ",";
+}
+
+.article-author::before {
+    content: " ";
+}
