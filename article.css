@@ -1,20 +1,25 @@
 article {
-
 }
 
 .article-title {
-    font-size: 1.5em;
+    font-size: 6vw;
     font-weight: 600;
 }
 
 .article-text {
     margin-top: 8px;
+
+    font-size: 4vw;
 }
 
 .article-subtitle {
     display: flex;
     flex-direction: row;
+
     font-style: italic;
+    font-size: 3.5vw;
+
+    margin-top: 4px;
 }
 
 .article-date::after {
