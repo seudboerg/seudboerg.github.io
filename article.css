@@ -29,3 +29,18 @@ article {
 .article-author::before {
     content: " ";
 }
+
+@media (max-width: 568px) {
+    .article-title {
+        font-size: 24px;
+    }
+
+    .article-subtitle {
+        font-size: 16px;
+        color: darkgray;
+    }
+
+    .article-text {
+        font-size: 18px;
+    }
+}

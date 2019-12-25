@@ -17,23 +17,6 @@ body {
                          "side-left foot side-right";
 }
 
-@media (max-width : 568px) {
-    .grid-wrapper {
-        min-height: 100vh;
-        display: grid;
-        grid-template-columns: auto;
-        grid-template-rows: 80px auto auto;
-
-        grid-template-areas: "head"
-                             "content"
-                             "foot";
-    }
-
-    .content {
-        margin: 0 16px 0 16px;
-    }
-}
-
 .head {
     grid-area: head;
     margin: auto;
@@ -54,3 +37,21 @@ body {
 .foot {
     grid-area: foot;
 }
+
+@media (max-width : 568px) {
+    .grid-wrapper {
+        min-height: 100vh;
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: 80px auto auto;
+
+        grid-template-areas: "head"
+                             "content"
+                             "foot";
+    }
+
+    .content {
+        margin: 0 16px 0 16px;
+    }
+}
+
