@@ -1,25 +1,44 @@
 article {
+    margin-bottom: 32px;
+
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-areas: "article-title"
+                         "article-subtitle"
+                         "article-text";
+}
+
+article:nth-child(even) {
+}
+
+article:last-child {
+    margin-bottom: 0;
 }
 
 .article-title {
-    font-size: 6vw;
+    grid-area: article-title;
+    font-size: 1.2em;
     font-weight: 600;
 }
 
 .article-text {
-    margin-top: 8px;
+    grid-area: article-text;
+    margin-top: 4px;
 
-    font-size: 4vw;
+    font-size: 1.0em;
+    line-height: 1.2em;
+    letter-spacing: 0.001em;
 }
 
 .article-subtitle {
+    grid-area: article-subtitle;
     display: flex;
     flex-direction: row;
 
     font-style: italic;
-    font-size: 3.5vw;
+    font-size: 0.9em;
 
-    margin-top: 4px;
+    margin-top: 2px;
 }
 
 .article-date::after {
@@ -30,17 +49,18 @@ article {
     content: " ";
 }
 
-@media (max-width: 640px) {
+@media (max-device-width: 640px) {
     .article-title {
-        font-size: 24px;
+        font-size: 72px;
     }
 
     .article-subtitle {
-        font-size: 16px;
+        font-size: 40px;
         color: darkgray;
     }
 
     .article-text {
-        font-size: 18px;
+        font-size: 48px;
+        margin-top: 24px;
     }
 }
