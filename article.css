@@ -30,7 +30,7 @@ article {
     content: " ";
 }
 
-@media (max-width: 320px) or (max-width: 568px) {
+@media (max-width: 640px) {
     .article-title {
         font-size: 24px;
     }

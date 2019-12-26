@@ -38,7 +38,7 @@ body {
     grid-area: foot;
 }
 
-@media (max-width : 568px) {
+@media (max-width : 640px) {
     .grid-wrapper {
         min-height: 100vh;
         display: grid;
