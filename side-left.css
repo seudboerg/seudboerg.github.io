@@ -1,0 +1,34 @@
+.side-left {
+    display: grid;
+    grid-template-rows: 100px 2fr 1fr;
+    grid-template-areas: "side-left-top"
+                         "side-left-mid"
+                         "side-left-bottom";
+
+    box-sizing: content-box;
+}
+
+.side-left-top {
+    grid-area: side-left-top;
+}
+
+.side-left-mid {
+    grid-area: side-left-mid;
+    margin-left: auto;
+    margin-right: 0;
+    padding-right: 64px;
+}
+
+.side-left-mid ul {
+    position: sticky;
+    list-style-type: none;
+}
+
+.side-left-mid a {
+    text-decoration: none;
+    color: black;
+}
+
+.side-left-bottom {
+    grid-area: side-left-bottom;
+}
