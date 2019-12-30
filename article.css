@@ -67,6 +67,14 @@ article:last-child {
     content: " ";
 }
 
+ul {
+    list-style-type: square;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
 @media (max-device-width: 640px) {
     .article-title {
         font-size: 72px;

@@ -1,5 +1,6 @@
 body {
-    font-family: sans-serif;
+    font-family: Arial, Verdana, Geneva, Helvetica, sans-serif;
+    font-weight: 500;
     min-height: 100vh;
     border: 0;
     padding: 0;
