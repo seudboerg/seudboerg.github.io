@@ -29,6 +29,28 @@
     color: black;
 }
 
+.side-left-mid ul li {
+    border-bottom: 1px solid black;
+    line-height: 0.7em;
+}
+
+.side-left-nav-item {
+    width: 70px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.link-box {
+    width: 0.8em;
+    height: 0.8em;
+    background-color: black;
+}
+
+.link-link {
+    margin-left: auto;
+    margin-right: 0;
+}
+
 .side-left-bottom {
     grid-area: side-left-bottom;
 }
