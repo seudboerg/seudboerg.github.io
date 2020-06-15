@@ -109,7 +109,9 @@ li > div {
 }
 
 .content {
-  margin: 88px auto 24px;
+  margin: 0 auto 24px;
+  padding-top: 88px;
+  padding-bottom: 24px;
 }
 
 .article {
@@ -157,7 +159,7 @@ li > div {
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
    .content {
-     padding: 0;
+     padding: 0 0 24px;
      width: 70%;
    }
    
@@ -170,7 +172,7 @@ li > div {
 /* Large */
 @media (min-width: 992px) {
    .content {
-     padding: 0;
+     padding: 0 0 24px;
      width: 60%;
    }
 
@@ -184,7 +186,7 @@ li > div {
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
    .content {
-     padding: 0;
+     padding: 0 0 24px;
      width: 50%;
    }
 
