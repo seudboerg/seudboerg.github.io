@@ -146,6 +146,39 @@ li > div {
   margin-top: 16px;
 }
 
+.article-images {
+  display: flex;
+  flex-direction: column;
+
+  padding: 48px;
+}
+
+.article-images > figure {
+  margin: 0 auto;
+  margin-bottom: 48px;
+}
+
+.article-images > figure:last-child {
+  margin-bottom: 0;
+}
+
+.article-images > figure > figcaption {
+  margin-top: 16px;
+  text-align: center;
+  color: rgb(134, 134, 134);
+}
+
+.article-images > figure > img {
+  display: block;
+  width: 100%;
+  max-width: 400px;
+
+  height: auto;
+
+  box-shadow: -2px 2px 14px -4px rgba(0, 0, 0, 0.3);
+}
+
+
 .date {
   font-size: 0.8rem;
   color: rgb(160, 160, 160);
