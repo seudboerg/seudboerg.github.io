@@ -69,4 +69,8 @@ li > div {
   ul > li {
     margin-bottom: 8px;
   }
+
+  .grid {
+    grid-template-rows: 80px 4px 1fr;
+  }
 }
