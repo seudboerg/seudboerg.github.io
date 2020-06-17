@@ -71,6 +71,6 @@ li > div {
   }
 
   .grid {
-    grid-template-rows: 80px 4px 1fr;
+    grid-template-rows: 48px 4px 1fr;
   }
 }
